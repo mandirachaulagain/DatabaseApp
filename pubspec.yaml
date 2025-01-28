@@ -1,0 +1,43 @@
+name: network_database_app  # Name of your Flutter application
+description: "A new Flutter project integrating network calls and SQLite database."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Application version: <major>.<minor>.<patch>+<build>
+version: 1.0.0+1
+
+# Define the Dart SDK version required
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI Icons for Cupertino (iOS-style) designs
+  cupertino_icons: ^1.0.8
+
+  # Networking dependency to fetch API data from JSONPlaceholder
+  http: ^1.2.0
+
+  # SQLite database package for local storage of users and posts
+  sqflite: ^2.3.0
+
+  # Provides access to the device's file system (used for storing SQLite DB files)
+  path_provider: ^2.1.2
+
+  # State management package (optional but useful for UI updates and data handling)
+  provider: ^6.1.0
+
+dev_dependencies:
+  # Flutter testing framework for writing unit and widget tests
+  flutter_test:
+    sdk: flutter
+
+  # Linting package to enforce best coding practices in Flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Ensures that Material Icons (default Flutter icons) are available
+  uses-material-design: true
