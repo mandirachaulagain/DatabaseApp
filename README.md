@@ -1,17 +1,6 @@
-# network_database_app
+SQLite database is used to manage local storage, where users are saved. Additionally, posts from JSONPlaceholder can be viewed for each user.
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+https://github.com/user-attachments/assets/94458b68-123c-4c15-8bb8-8a99b40c9b36
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# DatabaseApp" 
